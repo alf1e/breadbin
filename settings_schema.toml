@@ -1,0 +1,11 @@
+# The category to create channels in
+# Contains basic category ID
+modmail_category = 0
+
+# The guild to create the modmail thread in
+# Contains basic guild ID
+modmail_guild_id = 0
+
+# The role to manage the modmail thread
+# Contains basic role ID
+modmail_role_id = 0

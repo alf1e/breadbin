@@ -1,0 +1,9 @@
+manifest_version = 1
+
+[module]
+id = "breadbin"
+name = "Bread Bin"
+description = "Modmail for breadcord."
+version = "1.0.0"
+license = "MIT"
+authors = ["ItsMeAlfie0"]
