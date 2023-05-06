@@ -95,6 +95,9 @@ class BreadBin(breadcord.module.ModuleCog):
 
     @commands.command()
     async def close(self, ctx: commands.Context):
+        if not await self.bot.is_owner(ctx.author):
+            raise breadcord.errors.NotAdministratorError
+
         for i in ctx.author.roles:
             if i.id == self.module_settings.modmail_role_id.value:
                 break
